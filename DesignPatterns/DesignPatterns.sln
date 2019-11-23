@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29503.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyPattern", "StrategyPattern\StrategyPattern.csproj", "{4D32BF47-4C6D-47F8-9603-0A640DE2C1E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrategyPattern", "StrategyPattern\StrategyPattern.csproj", "{4D32BF47-4C6D-47F8-9603-0A640DE2C1E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyPattern.Tests", "StrategyPattern.Tests\StrategyPattern.Tests.csproj", "{7BC50A82-2E4A-409E-9D98-F4953C7AD92B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrategyPattern.Tests", "StrategyPattern.Tests\StrategyPattern.Tests.csproj", "{7BC50A82-2E4A-409E-9D98-F4953C7AD92B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterPattern", "AdapterPattern\AdapterPattern.csproj", "{DD1048BF-2EE8-46E4-9581-FA212A64BDA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterTests", "AdapterTests\AdapterTests.csproj", "{01C42936-1204-4AE6-92BC-A1BE56E6D842}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{7BC50A82-2E4A-409E-9D98-F4953C7AD92B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7BC50A82-2E4A-409E-9D98-F4953C7AD92B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7BC50A82-2E4A-409E-9D98-F4953C7AD92B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD1048BF-2EE8-46E4-9581-FA212A64BDA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD1048BF-2EE8-46E4-9581-FA212A64BDA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD1048BF-2EE8-46E4-9581-FA212A64BDA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD1048BF-2EE8-46E4-9581-FA212A64BDA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01C42936-1204-4AE6-92BC-A1BE56E6D842}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01C42936-1204-4AE6-92BC-A1BE56E6D842}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01C42936-1204-4AE6-92BC-A1BE56E6D842}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01C42936-1204-4AE6-92BC-A1BE56E6D842}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
