@@ -2,9 +2,11 @@
 {
     public class PercentageDiscount : IDiscountCalculator
     {
-        public decimal CalculateDiscount(decimal price)
+        private readonly decimal _percentageDiscount;
+        public PercentageDiscount(decimal percentageDiscount)
         {
-            return price / 100 * (100 - 10);
+            _percentageDiscount = percentageDiscount;
         }
+        public decimal CalculateDiscount(Sale sale) => sale.Price / 100 * (100 - _percentageDiscount);
     }
 }

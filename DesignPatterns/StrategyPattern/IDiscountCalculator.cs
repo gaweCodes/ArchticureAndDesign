@@ -2,6 +2,6 @@
 {
     public interface IDiscountCalculator
     {
-        decimal CalculateDiscount(decimal price);
+        decimal CalculateDiscount(Sale sale);
     }
 }
