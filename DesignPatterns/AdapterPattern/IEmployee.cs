@@ -1,6 +1,6 @@
 ﻿namespace AdapterPattern
 {
-    public interface ISalery
+    public interface IEmployee
     {
         decimal GetSalery();
     }

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="ca601352-42dc-4a45-83e3-be28308230cd" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/LayerDesigner">
+  <layers>
+    <layer Id="bd18e75f-adc3-410e-9c58-bc2229897d15" name="AdapterPattern.dll">
+      <references>
+        <reference Id="42029c3a-a91c-4476-aa93-4a7b22aac8d2" name="AdapterPattern.dll">
+          <ArtifactNode Label="AdapterPattern.dll" Category="CodeSchema_Assembly" Id="(Assembly=../AdapterPattern/bin/Debug/netcoreapp3.0/AdapterPattern.dll)" />
+          <ExpandedNode Id="(Assembly=AdapterPattern)" Label="AdapterPattern.dll" Category="CodeSchema_Assembly">
+            <Category Ref="FileSystem.Category.FileOfType.dll" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+  </layers>
+</layerModel>

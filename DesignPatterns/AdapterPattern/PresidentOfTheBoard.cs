@@ -8,9 +8,11 @@
         {
             _bonus = bonus;
         }
-        public decimal GetBonuses()
-        {
-            return _bonus;
-        }
+
+        public decimal GetBonuses() => _bonus;
+        //public decimal GetBonuses()
+        //{
+        //    return _bonus;
+        //}
     }
 }

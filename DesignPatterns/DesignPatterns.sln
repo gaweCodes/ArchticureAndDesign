@@ -7,13 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrategyPattern", "Strategy
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrategyPattern.Tests", "StrategyPattern.Tests\StrategyPattern.Tests.csproj", "{7BC50A82-2E4A-409E-9D98-F4953C7AD92B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterPattern", "AdapterPattern\AdapterPattern.csproj", "{DD1048BF-2EE8-46E4-9581-FA212A64BDA3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdapterPattern", "AdapterPattern\AdapterPattern.csproj", "{DD1048BF-2EE8-46E4-9581-FA212A64BDA3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterTests", "AdapterTests\AdapterTests.csproj", "{01C42936-1204-4AE6-92BC-A1BE56E6D842}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdapterTests", "AdapterTests\AdapterTests.csproj", "{01C42936-1204-4AE6-92BC-A1BE56E6D842}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{C3BE62B2-7318-41D2-8B5B-A91E03718CA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Singleton\Singleton.csproj", "{C3BE62B2-7318-41D2-8B5B-A91E03718CA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonUsage", "SingletonUsage\SingletonUsage.csproj", "{2AA0EB6E-3D1C-4079-B800-4BD9B910D09D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingletonUsage", "SingletonUsage\SingletonUsage.csproj", "{2AA0EB6E-3D1C-4079-B800-4BD9B910D09D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

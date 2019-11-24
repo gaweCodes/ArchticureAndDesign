@@ -65,9 +65,11 @@ namespace AdapterTests
             manager.Add(employee3);
             manager.Add(employee4);
             manager.Add(employee5);
+            manager.Add(new EmployeeObjectAdapter(new PresidentOfTheBoard(5000)));
+            
 
             // Action
-            var totalAmountSalery = manager.PaySaleries(new SaleryAdaptor(new PresidentOfTheBoard(5000)));
+            var totalAmountSalery = manager.PaySaleries();
 
             // Assert
             const int expectedResult = 10000;
@@ -88,9 +90,10 @@ namespace AdapterTests
             manager.Add(employee3);
             manager.Add(employee4);
             manager.Add(employee5);
+            manager.Add(new EmployeeClassAdaptor(new PresidentOfTheBoard(5000)));
 
             // Action
-            var totalAmountSalery = manager.PaySaleries(new PresidentClassAdaptor(5000));
+            var totalAmountSalery = manager.PaySaleries();
 
             // Assert
             const int expectedResult = 10000;
