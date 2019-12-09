@@ -4,12 +4,4 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <None Remove="Proxy_ReadMe.md" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Compile Include="Proxy_ReadMe.md" />
-  </ItemGroup>
-
 </Project>
