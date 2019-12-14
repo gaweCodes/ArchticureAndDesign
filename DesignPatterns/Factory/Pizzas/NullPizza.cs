@@ -4,7 +4,7 @@
     {
         internal NullPizza()
         {
-            Name = "NullPizza";
+            Name = "Margaritha";
         }
     }
 }
