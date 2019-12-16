@@ -1,9 +1,7 @@
-﻿using System;
-
-namespace BridgePattern
+﻿namespace BridgePattern
 {
     public class HtmlTextPrinting : IPrinting
     {
-        public void Print(string textToPrint) => Console.WriteLine($"<p>{textToPrint}</p>");
+        public string Print(string textToPrint) => $"<p>{textToPrint}</p>";
     }
 }

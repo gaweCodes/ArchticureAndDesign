@@ -3,6 +3,6 @@
     public class AnotherPrinter : Printer
     {
         public AnotherPrinter(IPrinting printingImplementation) : base(printingImplementation) { }
-        public override void Print() => PrintImplementation.Print("B");
+        public override string Print() => PrintImplementation.Print("B");
     }
 }

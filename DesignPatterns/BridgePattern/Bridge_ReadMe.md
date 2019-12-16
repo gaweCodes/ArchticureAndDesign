@@ -12,5 +12,3 @@ Implement the Abstraction in terms of (by delegating to) an Implementor object.
 # Advantages
 
 # Disadvantages
-
-# Examples

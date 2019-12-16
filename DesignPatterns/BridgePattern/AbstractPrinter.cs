@@ -2,12 +2,12 @@
 {
     public abstract class AbstractPrinter
     {
-        public IPrinting PrintImplementation { get; set; }
-
-        public AbstractPrinter(IPrinting printingImplementation)
+        public IPrinting PrintImplementation { get; }
+        protected AbstractPrinter(IPrinting printingImplementation)
         {
             PrintImplementation = printingImplementation;
         }
-        public abstract void Print();
+
+        public abstract string Print();
     }
 }

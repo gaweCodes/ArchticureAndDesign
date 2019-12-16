@@ -2,6 +2,6 @@
 {
     public interface IPrinting
     {
-        public void Print(string textToPrint);
+        public string Print(string textToPrint);
     }
 }
