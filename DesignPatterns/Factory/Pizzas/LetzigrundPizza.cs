@@ -5,9 +5,8 @@
         internal LetzigrundPizza()
         {
             Name = "Letzigrund Pizza";
-            Dough = "Thin";
-            Sauce = "Senf";
-            Toppings.Add("Bären");
+            Add("Senf");
+            Add("Lions");
         }
     }
 }

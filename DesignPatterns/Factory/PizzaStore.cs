@@ -2,19 +2,13 @@
 
 namespace Factory
 {
-    public abstract class PizzaStore
+    public class PizzaStore
     {
-        protected abstract Pizza CreatePizza(string type);
-
-        public Pizza OrderPizza(string type)
+        private readonly IPizzaFactory _pizzaFactory;
+        public PizzaStore(IPizzaFactory pizzaFactory)
         {
-            var createdPizza = CreatePizza(type);
-            Console.WriteLine($"Making pizza {createdPizza.Name}");
-            createdPizza.Prepare();
-            createdPizza.Bake();
-            createdPizza.Cut();
-            createdPizza.Box();
-            return createdPizza;
+            _pizzaFactory = pizzaFactory;
         }
+        public Pizza CreatePizza() => _pizzaFactory.CreatePizza();
     }
 }
