@@ -7,7 +7,7 @@ Define an abstract and narrow interface that is implemented by a concrete lightw
 A factory creates and manages all flyweights. This means that only the necessary objects are created when required.
 
 # UML
-![Fylweight Uml](Flyweight_UML.png?raw=true "UML")
+![Fylweight Uml](Flyweigth_UML.png?raw=true "UML")
 
 # Advantages
 The process reduces storage costs in proportion to the size of the outsourced state and the number of fly weights. Storage costs continue to decrease if the outsourced state does not have to be saved but can be calculated.
