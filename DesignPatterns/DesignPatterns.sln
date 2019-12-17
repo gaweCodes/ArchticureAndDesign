@@ -17,8 +17,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingletonUsage", "Singleton
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory", "Factory\Factory.csproj", "{CF3F02A6-57CE-4B4E-9CA2-34E681CA9CA7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryConsole", "FactoryConsole\FactoryConsole.csproj", "{1C3BCA35-B27D-4EDB-B90F-C6DE3F24C079}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite", "Composite\Composite.csproj", "{E3F7DC3D-9692-44EC-BB99-357FC4437957}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompositeConsole", "CompositeConsole\CompositeConsole.csproj", "{5219537B-3911-4E00-8DCD-746C80978731}"
@@ -33,7 +31,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlyweightPattern", "Flyweig
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProxyPattern", "ProxyPattern\ProxyPattern.csproj", "{EF8DE41B-30CA-415F-BB4D-751467E81342}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgePatternTest", "BridgePatternTest\BridgePatternTest.csproj", "{44A305BE-53E4-4EEB-8DB2-3F9FAE5FCCD0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BridgePatternTest", "BridgePatternTest\BridgePatternTest.csproj", "{44A305BE-53E4-4EEB-8DB2-3F9FAE5FCCD0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,10 +67,6 @@ Global
 		{CF3F02A6-57CE-4B4E-9CA2-34E681CA9CA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF3F02A6-57CE-4B4E-9CA2-34E681CA9CA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF3F02A6-57CE-4B4E-9CA2-34E681CA9CA7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1C3BCA35-B27D-4EDB-B90F-C6DE3F24C079}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1C3BCA35-B27D-4EDB-B90F-C6DE3F24C079}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1C3BCA35-B27D-4EDB-B90F-C6DE3F24C079}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1C3BCA35-B27D-4EDB-B90F-C6DE3F24C079}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E3F7DC3D-9692-44EC-BB99-357FC4437957}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E3F7DC3D-9692-44EC-BB99-357FC4437957}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3F7DC3D-9692-44EC-BB99-357FC4437957}.Release|Any CPU.ActiveCfg = Release|Any CPU

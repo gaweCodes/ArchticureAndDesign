@@ -1,14 +1,19 @@
 ﻿# Problem
-An abstraction and its implementation should be defined and extended independently from each other.
-A compile-time binding between an abstraction and its implementation should be avoided so that an implementation can be selected at run-time.
+How can you implement an abstraction without including inheritance in the abstraction as well as in the implementation.
 
 # Solution
-Separate an abstraction (Abstraction) from its implementation (Implementor) by putting them in separate class hierarchies.
-Implement the Abstraction in terms of (by delegating to) an Implementor object.
+If the abstract classes and the implementations are managed in two different hierarchies, firstly the clarity gains and secondly the application becomes independent of the implementation.
 
 # UML
 ![Bridge Uml](Bridge_UML.png?raw=true "UML")
 
 # Advantages
+*Abstraction and implementation are decoupled.
+*The implementation can be changed dynamically during runtime.
+*The extensibility of abstraction and implementation is improved.
+*The implementation can be selected by specifying a parameter when generating an abstraction.
+*The implementation is completely hidden from the client.
+*Avoid a large increase in the number of classes.
 
 # Disadvantages
+*No implementation of functionality allowed in abstract classes
